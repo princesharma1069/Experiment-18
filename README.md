@@ -17,18 +17,6 @@ import seaborn as sns: Imports the Seaborn library, which is built on top of Mat
 
 import matplotlib.pyplot as plt: Imports the Matplotlib sub-module used for generating static, interactive, and animated visualizations in Python.
 
-pd.read_csv(): Loads data from a comma-separated values (CSV) file into a structured DataFrame.
-
-df.head(): Displays the first five rows of the DataFrame to provide a quick glimpse of the data structure and values.
-
-df.info(): Prints a concise summary of the DataFrame, including the number of non-null entries and the data type of each column.
-
-df.describe(): Generates descriptive statistics that summarize the central tendency, dispersion, and shape of a dataset’s distribution.
-
-df.isnull().sum(): Checks for missing values across the dataset and returns the total count of null entries for each column.
-
-df.drop(): Removes specified labels (rows or columns) from the DataFrame to clean or simplify the dataset.
-
 sns.histplot(): Plots a univariate histogram to visualize the distribution of a single numerical variable.
 
 sns.scatterplot(): Draws a scatter plot to represent the relationship between two numerical variables using dots.
@@ -55,6 +43,7 @@ size=, sizes=, hue= in sns.scatterplot(): Seaborn parameters for bubble size and
 
 plt.show(): Displays the created plots and clears the current figure buffer.
 
+plt.pie(): Creates a pie chart to illustrate numerical proportions as slices of a circle.
 
 
 ## Conclusion:
